@@ -12,15 +12,15 @@ int factor(int n)
 
 main()
 {
-	vector<int> n;
-	int a = 1;
-	while (a != 0)
-	{
-		cin >> a;
-		n.push_back(a);
-	}
-	for (int i = 0; i < n.size() - 1; i++)
-	{
-		cout << factor(n[i]) << endl;
-	}
+	// vector<int> n;
+	// int a = 1;
+	// while (a != 0)
+	// {
+	// 	cin >> a;
+	// 	n.push_back(a);
+	// }
+	// for (int i = 0; i < n.size() - 1; i++)
+	// {
+	// 	cout << factor(n[i]) << endl;
+	// }
 }
